@@ -1,5 +1,5 @@
 
-
+import '../App.css';
 function Contact() {
     return (
       <div>

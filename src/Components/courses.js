@@ -1,8 +1,9 @@
-import '/home/ec2-user/pt_website/profile-app-skyblue813/src/App.js'
+//import '/home/ec2-user/pt_website/profile-app-skyblue813/src/App.js'
+import '../App.css';
 function Courses() {
   return (
-    <div style={{backgroundColor:'#BDEDFF'}}>
-        <h2 style={{backgroundColor:'#98AFC7'}}>Courses</h2>
+    <div >
+        <h2>Courses</h2>
       <ul>
           <li>Artificial Intelligence</li>
           <li>Game Design and Development</li>
