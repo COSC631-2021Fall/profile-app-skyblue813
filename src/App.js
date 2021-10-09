@@ -1,4 +1,4 @@
-import { BrowserRouter,Route } from "react-router-dom";
+import { BrowserRouter,Route ,Switch} from "react-router-dom";
 import Module1 from "./Components/Module1";
 import Module2 from "./Components/Module2";
 import Navbar from "./Components/Navbar";
@@ -6,7 +6,7 @@ import {useState, useEffect} from "react" ;
 
 
 function App() {
-  const themes = ['white', 'tomato', 'olive'];
+  const themes = ['yellow', 'tomato', 'olive'];
   const [themeId, setThemeId] = useState(0);
   const switchTheme= () =>{
     setThemeId((id) => (id+1)%3);
@@ -33,8 +33,7 @@ function App() {
         <center>
 <h1>
 <u>Priyadarshini G Thoppae</u>
-<Navbar/>
-<div> <button onClick ={switchTheme}> </button> </div>
+<div> <button onClick ={switchTheme}>Switch </button> </div>
 </h1>
 </center>
       <main>
