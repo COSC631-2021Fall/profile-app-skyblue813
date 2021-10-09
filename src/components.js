@@ -3,14 +3,15 @@ function Skill() {
     return (
       <div>
           <h2>Skills</h2>
-        <p>Java
-        <br />php
-        <br />WordPress,
-        <br /> J2EE,
-        <br /> Spring Framework,
-        <br /> JUnit, 
-        <br />Mockito
-        </p>
+          <ul>
+            <li>Java</li>
+            <li>php</li>
+            <li>WordPress</li>
+            <li>Python</li>
+            <li>Unity</li>
+            <li>MySQL</li>
+            <li>C, C++, C#</li>
+            </ul>
       </div>
     );
   }
